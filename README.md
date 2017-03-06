@@ -16,3 +16,16 @@ ______
 ##How to use
 1. Select a page to start presentation.
 2. Just click the presentation slide.
+
+##Customizing presentation slides
+###1: `slidesFrmwork.html`
+Every slide needs following tags:  
+\[_an example of 1st slide_\]  
+`<div class="slides" id="slide1">`  
+  `<header></header>`  
+    `<section class="slideSections">`  
+      --- Text, tags etc. ---  
+    `</section>`  
+  `<footer></footer>`  
+`</div>`
+###2: `src.js`
