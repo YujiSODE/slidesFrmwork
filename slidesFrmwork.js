@@ -50,6 +50,7 @@ function _sTool(I){
         },
         /*this method returns function that resets the current page after delay*/
         reset:function(delay){
+            /*delay: millisecond*/
             return function(){
                 var slf=window,T,s=function(){tg[o.page].innerHTML=_bcup[o.page].replace(/undefined/,'');};
                 T=+delay>0?slf.setTimeout(s,+delay):s();};
