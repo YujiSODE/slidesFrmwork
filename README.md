@@ -16,6 +16,7 @@ ______
 ##How to use
 1. Select a page to start presentation.
 2. Just click the presentation slide.
+3. "controls" are available (`click` + `ctrl key`).
 
 ##Customizing presentation slides
 ###1: `slidesFrmwork.html`
@@ -66,5 +67,5 @@ An array `S` in `src.js` is used in order to describe script.
 * `_tl.getBackward(delay)`: this method returns function that scrolls window to the previous page after delay.  
  `delay`: millisecond.  
  
-* `_tl.close()`: this method returns function that closes "controls".  
+* `_tl.close()`: this method returns function that closes "controls"; available only called in a "controls".  
  
