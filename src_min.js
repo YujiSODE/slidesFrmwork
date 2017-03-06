@@ -20,11 +20,11 @@
             //=== 0th slide: title ===
             S[0]=[];
             S[0][0]=_tl.scroll(1,0);
-            //=== 1st slide: Introduction ===
+            //=== 1st slide: *** ===
             S[1]=[];
             S[1][0]=_tl.addInnerHTML("text1",0);
             S[1][1]=function(){(_tl.reset(0)()),(_tl.scroll(2,0)());};
-            //=== 2nd slide: 1. Text and basics ===
+            //=== 2nd slide: *** ===
             S[2]=[];
             S[2][0]=_tl.addInnerHTML("text2",0);
             S[2][1]=function(){(_tl.reset(0)()),(_tl.scroll(0,0)());};
