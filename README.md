@@ -66,5 +66,5 @@ An array `S` in `src.js` is used in order to describe script.
 * `_tl.getBackward(delay)`: this method returns function that scrolls window to the previous page after delay.  
  `delay`: millisecond.  
  
- * `_tl.close()`: this method returns function that closes "controls".  
+* `_tl.close()`: this method returns function that closes "controls".  
  
