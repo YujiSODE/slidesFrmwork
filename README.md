@@ -29,3 +29,5 @@ Every slide needs following tags:
   `<footer></footer>`  
 `</div>`
 ###2: `src.js`
+1. `[Setting 1]: <header>, <footer> and controls`
+2. `[Setting 2]: scripts`
