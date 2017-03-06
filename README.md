@@ -11,5 +11,6 @@ ______
 * `slidesFrmwork.html`
 * `slidesFrmwork.js`
 * `slidesFrmwork.css`
+* `src.js`
 
 ##How to use
