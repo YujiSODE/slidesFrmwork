@@ -39,7 +39,7 @@ __[Setting 2]:__ `scripts`
 An array `S` in `src.js` is used in order to describe script.  
 `S[i][j]` is _j_-th script in _i_-th page in the presentation slides.
 
-###3: Available value and methods in tool object in order to describe script
+###3: Available value and methods in tool object in order to describe script in `src.js`
 
 * `_tl`: tool object.  
 
@@ -64,3 +64,7 @@ An array `S` in `src.js` is used in order to describe script.
  `delay`: millisecond.  
  
 * `_tl.getBackward(delay)`: this method returns function that scrolls window to the previous page after delay.  
+ `delay`: millisecond.  
+ 
+ * `_tl.close()`: this method returns function that closes "controls".  
+ 
