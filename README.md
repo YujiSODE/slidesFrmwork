@@ -16,7 +16,7 @@ ______
 ##How to use
 1. Select a page to start presentation.
 2. Just click the presentation slide.
-3. "controls" are available (`click` + `ctrl key`).
+3. "controls" are available (`ctrl key` + `click`).
 
 ##Customizing presentation slides
 ###1: `slidesFrmwork.html`
