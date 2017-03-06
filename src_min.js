@@ -40,5 +40,6 @@
 *    This software is released under the MIT License.
 *    See LICENSE or http://opensource.org/licenses/mit-license.php
 *
+* This is minimum version of "slidesFrmwork version 1.1.1"
 * HTML based presentation slides framework
 */
