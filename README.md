@@ -8,3 +8,8 @@ https://github.com/YujiSODE/slidesFrmwork
 ______
 
 ##Script
+* `slidesFrmwork.html`
+* `slidesFrmwork.js`
+* `slidesFrmwork.css`
+
+##How to use
