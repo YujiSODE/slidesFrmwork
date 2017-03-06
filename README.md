@@ -37,4 +37,4 @@ __[Setting 1]:__ `<header>, <footer> and controls`
 __[Setting 2]:__ `scripts`
 
 An array `S` in `src.js` is used in order to describe script.  
-`S[i][j]` is _j_-th script (function) in _i_-th page.
+`S[i][j]` is _j_-th script (function) in _i_-th page in the presentation slides.
