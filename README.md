@@ -21,7 +21,7 @@ ______
 ###1: `slidesFrmwork.html`
 Every slide needs following tags:  
 \[_an example of 1st slide_\]  
-`<div class="slides" id="slide1">`  
+`<div class="slides">`  
   `<header></header>`  
     `<section class="slideSections">`  
       --- Text, tags etc. ---  
