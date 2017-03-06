@@ -28,7 +28,7 @@
             * =========
             */
             _tl=_sTool(!!+page0?+page0:0);
-            //---"showing controls": click + ctrl key---
+            //---"showing controls": ctrl key + click ---
             slf.addEventListener('click',function(e){
                  if(!!e.ctrlKey){e.stopPropagation(),_getControls(_tl);}
              },true);
