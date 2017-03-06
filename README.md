@@ -30,8 +30,11 @@ Every slide needs following tags:
 `</div>`
 ###2: `src.js`
 __[Setting 1]:__ `<header>, <footer> and controls`
+
 * `_header`: an array of header titles.
 * `_footer`: an array of footer texts.
 
 __[Setting 2]:__ `scripts`
-* 
+
+An array `S` in `src.js` is used in order to describe script.  
+`S[i][j]` is _j_-th script (function) in _i_-th page.
