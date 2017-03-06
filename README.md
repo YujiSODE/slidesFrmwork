@@ -1,4 +1,5 @@
 # slidesFrmwork
+This is minimum version of `slidesFrmwork version 1.1.1`  
 HTML based presentation slides framework  
 https://github.com/YujiSODE/slidesFrmwork
 
@@ -8,10 +9,10 @@ https://github.com/YujiSODE/slidesFrmwork
 ______
 
 ##Script
-* `slidesFrmwork.html`
-* `slidesFrmwork.js`
-* `slidesFrmwork.css`
-* `src.js`
+* `slidesFrmwork_min.html`
+* `slidesFrmwork_min.js`
+* `slidesFrmwork_min.css`
+* `src_min.js`
 
 ##How to use
 1. Select a page to start presentation.
