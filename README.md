@@ -37,4 +37,30 @@ __[Setting 1]:__ `<header>, <footer> and controls`
 __[Setting 2]:__ `scripts`
 
 An array `S` in `src.js` is used in order to describe script.  
-`S[i][j]` is _j_-th script (function) in _i_-th page in the presentation slides.
+`S[i][j]` is _j_-th script in _i_-th page in the presentation slides.
+
+###3: Available value and methods in tool object in order to describe script
+
+* `_tl`: tool object.  
+
+* `_tl.page`: current page.  
+
+* `_tl.scroll(y,delay)`: this method returns function that scrolls window after delay.  
+ `y`: viewport scroll;`delay`: millisecond.  
+ 
+* `_tl.addInnerHTML(txt,delay)`: this method returns function that adds a given text|tag to the current tag after delay.  
+ `txt`: text;`delay`: millisecond.  
+ 
+* `_tl.removeTag(ID,delay)`: this method returns function that removes a target tag after delay.  
+  `ID`: id of removing tag;`delay`: millisecond.  
+ 
+* `_tl.reset(delay)`: this method returns function that resets the current page after delay.  
+ `delay`: millisecond.  
+ 
+* `_tl.getCurrent(delay)`: this method returns function that scrolls window to the current page after delay.  
+ `delay`: millisecond.  
+ 
+* `_tl.getForward(delay)`: this method returns function that scrolls window to the next page after delay.  
+ `delay`: millisecond.  
+ 
+* `_tl.getBackward(delay)`: this method returns function that scrolls window to the previous page after delay.  
