@@ -1,0 +1,11 @@
+/*slidesFrmwork
+* slidesFrmwork_min.css
+*
+*    Copyright (c) 2017 Yuji SODE <yuji.sode@gmail.com>
+*
+*    This software is released under the MIT License.
+*    See LICENSE or http://opensource.org/licenses/mit-license.php
+*
+* HTML based presentation slides framework
+*/
+@media screen{body{background:rgba(100,120,240,1);font:1.6em monospace,sans-serif;}header{position:absolute;margin:0 0 0 30vw;height:auto;top:0;}footer{position:absolute;margin:0 0 0 30vw;height:auto;bottom:0;}.slides{position:relative;width:98vw;height:100vh;margin:0;border:1px solid rgba(0,0,0,1);overflow:scroll;}nav{position:fixed;width:48vw;height:20vh;overflow:scroll;z-index:300;color:rgba(0,0,0,1);background:rgba(0,180,180,0.7);}}@media print{body{background:rgba(100,120,240,1);font:1em monospace,sans-serif;}header{position:absolute;margin:0 0 0 8em;height:auto;top:0;}footer{position:absolute;margin:0 0 0 8em;height:auto;bottom:0;}.slides{position:relative;width:80em;height:48em;margin:0;border:1px solid rgba(0,0,0,1);overflow:scroll;page-break-after:always;}nav{display:none;}}ol{font-size:0.8em;}ul{font-size:0.8em;}code{background:rgba(255,255,255,1);color:rgba(0,0,0,1);}iframe{width:30vw;height:30vh;overflow:scroll;}
