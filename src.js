@@ -19,7 +19,14 @@
             _footer=[_date];
             //-- setting <header> and <footer> --
             setSlide('()',_header,_footer);
-            //_tl: tool object
+            /*=== tool object ===
+            * _tl: {
+            * page,scroll(y,delay),addInnerHTML(txt,delay),removeTag(ID,delay),
+            * reset(delay),getCurrent(delay),getForward(delay),getBackward(delay),
+            * close()
+            * }
+            * =========
+            */
             _tl=_sTool(!!+page0?+page0:0);
             //---"showing controls": click + ctrl key---
             slf.addEventListener('click',function(e){
