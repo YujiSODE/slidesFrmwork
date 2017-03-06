@@ -15,5 +15,4 @@ ______
 
 ##How to use
 1. Select a page to start presentation.
-2. 
-
+2. Just click the presentation slide.
