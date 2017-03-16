@@ -8,19 +8,19 @@ https://github.com/YujiSODE/slidesFrmwork
 >See LICENSE or http://opensource.org/licenses/mit-license.php
 ______
 
-##Script
+## Script
 * `slidesFrmwork_min.html`
 * `slidesFrmwork_min.js`
 * `slidesFrmwork_min.css`
 * `src_min.js`
 
-##How to use
+## How to use
 1. Select a page to start presentation.
 2. Just click the presentation slide.
 3. "controls" are available (`ctrl key` + `click`).
 
-##Customizing presentation slides
-###1: `slidesFrmwork.html`
+## Customizing presentation slides
+### 1: `slidesFrmwork.html`
 Every slide needs following tags:  
 \[_an example of 1st slide_\]  
 `<div class="slides">`  
@@ -30,7 +30,7 @@ Every slide needs following tags:
     `</section>`  
   `<footer></footer>`  
 `</div>`
-###2: `src.js`
+### 2: `src.js`
 __[Setting 1]:__ `<header>, <footer> and controls`
 
 * `_header`: an array of header titles.
@@ -41,7 +41,7 @@ __[Setting 2]:__ `scripts`
 An array `S` in `src.js` is used in order to describe script.  
 `S[i][j]` is _j_-th script in _i_-th page in the presentation slides.
 
-###3: Available value and methods in tool object in order to describe script in `src.js`
+### 3: Available value and methods in tool object in order to describe script in `src.js`
 
 * `_tl`: tool object.  
 
