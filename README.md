@@ -1,5 +1,5 @@
 # slidesFrmwork
-This is minimum version of `slidesFrmwork version 1.1.1`  
+This is minimum version of `slidesFrmwork version 1.1.2`  
 HTML based presentation slides framework  
 https://github.com/YujiSODE/slidesFrmwork
 
